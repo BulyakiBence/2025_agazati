@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html>
+<!-- 1. feladat  maygar nyelv-->
+<html lang="hu">
 <head>
-    <title>Iceland</title>
+    <!-- 2. Cím  -->
+    <title>Izland csodái</title>
     <link rel="stylesheet" href="bootstrap">
+    <!-- 1. utf 8   -->
+    <meta charset="UTF-8">
+    <!-- 3. linkek -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="iceland.css">
 </head>
 <body>
-    <div>
+    <!-- 4. fel divhez container -->
+    <div class="container">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
@@ -17,6 +25,10 @@
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="#tortenelem">Történelem</a></li>
                         <li class="nav-item"><a class="nav-link" href="#termeszet">Természeti csodák</a></li>
+                        <!-- 6. a,b,c -->
+                        <li class="nav-item"><a class="nav-link" href="#golden">Golden Circle</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#forrasok">Források</a></li>
+                        
                     </ul>
                 </div>
             </div>
@@ -25,7 +37,8 @@
         <section id="bevezeto">
             <div class="hero">
                 <div class="container">
-                    <h2>Fedezze fel Izlandot!</h2>
+                    <!-- 7. feladat: h1 -->
+                    <h1>Izland csodái</h1>
                 </div>
             </div>
         </section>
@@ -34,14 +47,18 @@
 
             <section id="tortenelem">
                 <h2>Izland történelme</h2>
-
+                <!-- 8. feladat szovegh es sortores -->
+                <p>Izland történelme a 9. századig nyúlik vissza, amikor norvég vikingek és más skandináv telepesek érkeztek a szigetre. <br>
+930-ban megalapították az Alþinget, a világ egyik legrégebbi parlamentjét. <br> A középkor során Izland norvég, majd dán fennhatóság alá került. <br>
+A 19. és 20. század fordulóján egyre erősödött a függetlenségi mozgalom, amely végül 1944-ben Izland teljes függetlenségéhez vezetett Dániától.
+Az ország azóta is demokratikus berendezkedésű, és gazdaságát főként a halászat, a megújuló energiaforrások és az idegenforgalom határozzák meg.</p>
             </section>
 
             <section id="termeszet">
                 <h2>Természeti csodák</h2>
                 <div class="row">
 
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="card">
                             <img src="images/northern_lights.jpg" class="card-img-top" alt="Sarki fény">
                             <div class="card-body">
@@ -51,7 +68,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 mb-4">
+                    <div class="col-md-6 mb-4">
                         <div class="card">
                             <img src="images/blue_lagoon.jpg" class="card-img-top" alt="Kék-lagúna">
                             <div class="card-body">
@@ -61,7 +78,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="card">
                             <img src="images/vatnajokull.jpg" class="card-img-top" alt="Vatnajökull gleccser">
                             <div class="card-body">
@@ -70,6 +87,34 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 9. feladat a,b,c,d,e -->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/gullfoss.jpg" class="card-img-top" alt="Gullfoss vízesés">
+                            <div class="card-body">
+                                <h5 class="card-title">Gullfoss vízesés</h5>
+                                <p class="card-text">Izland egyik leglenyűgözőbb vízesése.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/thingvellir.jpg" class="card-img-top" alt="Þingvellir Nemzeti Park ">
+                            <div class="card-body">
+                                <h5 class="card-title">Þingvellir Nemzeti Park</h5>
+                                <p class="card-text">Történelmi és geológiai jelentőségű UNESCO Világörökségi helyszín.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/reynisfjara.jpg" class="card-img-top" alt="Reynisfjara part ">
+                            <div class="card-body">
+                                <h5 class="card-title">Reynisfjara part</h5>
+                                <p class="card-text"> Híres fekete homokos part lenyűgöző bazaltoszlopokkal.</p>
+                            </div>
+                        </div>
+                    </div> 
 
 
                 </div>

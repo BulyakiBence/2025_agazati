@@ -5,7 +5,8 @@ body {
 
 /* Hero szekció */
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('___');
+    /* 5. feladat img background */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/golden_circle.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
