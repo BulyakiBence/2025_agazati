@@ -11,6 +11,8 @@ body {
     background-position: center;
     padding: 100px 0;
     margin-bottom: 30px;
+    color: white;
+    text-align: center;
 }
 
 .hero h2 {
@@ -19,11 +21,13 @@ body {
 
 .hero p {
     font-size: 1.5rem;
+    
 }
 
 /* Címsorok */
 h2 {
     color: #2c3e50;
+    border-bottom:1px solid #3498db;
     margin-bottom: 30px;
     padding-bottom: 10px;
 }
@@ -38,14 +42,23 @@ h2 {
     height: 200px;
     object-fit: cover;
 }
+.card:hover {
+    width: 110%;
+}
 
 /* Táblázat stílusok */
 .table {
     margin: 20px 0;
+    box-shadow: 2px 2px 3px;
 }
 
 /* Források stílusok */
 #forrasok a {
     color: #776e6e;
     font-style: italic;
+}
+#forrasok a:hover{
+    text-decoration: none;
+    color: #3498db;
+    
 }
